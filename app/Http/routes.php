@@ -46,10 +46,7 @@ Route::resource('admin/tipos', 'TypesController', [
 	'only' => ['create', 'edit', 'destroy', 'store', 'update']
 ]);
 
-
-Route::get('/', 'WelcomeController@redirect');
-
- Route::get('home', 'HomeController@index');
+Route::get('/', 'CalendarController@redirect');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

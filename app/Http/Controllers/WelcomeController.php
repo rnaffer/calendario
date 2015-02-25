@@ -33,9 +33,4 @@ class WelcomeController extends Controller {
 		return view('welcome');
 	}
 
-	public function redirect()
-	{
-		return redirect()->route('calendar');
-	}
-
 }

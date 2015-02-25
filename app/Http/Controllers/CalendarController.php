@@ -43,4 +43,9 @@ class CalendarController extends Controller {
 
 		return view("calendar.calendar", compact('month_events', 'next_month_events'));
 	}
+
+	public function redirect()
+	{
+		return redirect('calendar');
+	}
 }
