@@ -1,0 +1,634 @@
+/*HEADER*/
+.escudo {
+	max-width: 60px;
+	max-height: 60px;
+}
+
+.navbar-header {
+	padding: 7px 0;
+}
+
+.navbar {
+	box-shadow: 0px 0px 3px #777;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.table .btn, .dash-main .btn {
+	font-size: 9px;
+	padding: 4px 12px;
+}
+
+.menu {
+	display: inline-block;
+	float: right;
+}
+/*END HEADER*/
+
+/*TITLE*/
+
+.title {
+	padding: 10px;
+	background-color: #FFF;
+	margin: 10px;
+}
+
+.title h3 {
+	margin-top: 0px;
+}
+
+.title span:first-child {
+	color: #555;
+}
+/*END TITLE*/
+
+/*MAIN BLOCK*/
+h2, h3 {
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	color: #555;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+h3 span {
+	color: #777;
+	font-size: 13px;
+}
+
+h2 {
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.sup-container {
+	background-color: #eee;
+}
+
+.rightfix {
+	padding-right: 0;
+}
+
+.calendar, .legend {
+	height: 625px;
+	background-color: white;
+}
+
+.calendar, .legend, .title, .dash-main {
+	box-shadow: 0px 0px 3px #777;
+}
+
+.day, .hour {
+	margin: 1px;
+	height: 87px;
+	background-color: #f3f3f3;
+	color: #d2d2d2;
+	transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.hour p {
+	color: #555;
+	font-weight: bold;
+}
+/*END MAIN*/
+
+/*SHEDULE*/
+.half-block, .all-block {
+	width: 100%;
+	display: table;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.half-block {
+	height: 50%;
+}
+
+.all-block {
+	height: 100%;
+}
+
+.dash-main h3 {
+	margin: 10px;
+	letter-spacing: 1px;
+}
+
+.shedule-btn {
+	border: 1px solid #7890D1;
+	color: #7890D1;
+}
+
+#shedule-box .block {
+	text-align: center;
+}
+/*END SHEDULE*/
+
+/*CALENDAR*/
+
+.calendar {
+	height: 575px;
+	margin-top: 2px;
+}
+
+.block {
+	padding: 0;
+	text-align: left;
+}
+
+.calendar, .dash-main {
+	margin: 10px;
+	padding: 5px;
+}
+
+.dash-main {
+	background-color: #fff;
+	text-align: center;
+}
+
+.head {
+	background-color: #f1f1f1;
+	font-size: 14px;
+	font-weight: bold;
+	color: #555;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.clear {
+	margin: 0;
+}
+
+.navigation .shedule-btn:hover, .navigation .shedule-btn:active .btn-default.active {
+    color: #FCFCFC;
+    background-color: #83C7F9;
+    border-color: #C6D3F8;
+}
+
+.day > span {
+	position: relative;
+	top: -26px;
+	left: 30px;
+}
+
+.day:hover {
+	background-color: #C4D0ED;
+	color: #fafafa;
+}
+
+.info {
+	display: inline-block;
+	width: 100%;
+	margin: 0px;
+	padding: 2px 0px;
+	height: 40%;
+}
+
+.number p, .half-block p, .all-block p {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;	
+	font-size: 11px;
+}
+
+.number {
+	display: table;
+	width: 100%;
+	float: right;
+	text-align: center;
+	height: 60%;
+}
+
+.number p {
+	font-size: 35px;
+}
+
+.legend {
+	padding-top: 20px;
+}
+
+.legend div {
+	text-align: center;
+	padding: 5px;
+}
+
+.legend form button {
+	font-size: 12px;
+}
+
+.legend div a {
+	width: 100%;
+	font-size: 12px;
+}
+
+.legend ul {
+	padding-left: 10%;
+	border-bottom: 1px solid #f1f1f1;
+	font-weight: bold;
+	font-size: 11px;
+	color: #555;
+}
+
+.legend ul li {
+	list-style: none;
+	margin-bottom: 7px;
+}
+
+.info ul, .detail ul {
+	padding-left: 0;
+	text-align: center;
+	margin: 0px;
+	padding-top: 3px;
+}
+
+.detail ul {
+	padding-bottom: 4px;
+}
+
+.info ul {
+	border-top: 2px solid rgb(247, 247, 247);
+}
+
+.info ul li {
+	display: inline;
+}
+
+.info ul li, .detail ul li {
+	list-style: none;
+	margin-bottom: 2px;
+	font-size: 10px;
+}
+
+
+.detail ul li {
+	float: left;
+}
+
+.info ul li img, .table img {
+	width: 24px;
+	height: 24px;
+}
+
+.popover {
+	max-width: 100%;
+	width: 100%;
+}
+
+.feedback {
+	margin-top: 15px;
+}
+
+.navigation {
+	display: inline-block;
+	float: right;
+}
+
+.navigation button, .menu button {
+	font-size: 10px;
+	position: relative;
+	top: -3px;
+}
+
+.menu button {
+	display: none;
+	top: 20px;
+}
+
+#feed {
+	width: 95%;
+	height: 90%;
+	max-width: 170px;
+	max-height: 145px;
+}
+
+.btn {
+	font-weight: bold;
+	color: #666;
+}
+
+.hide {
+	display: none;
+}
+
+.popover-title {
+	font-size: 11px;
+}
+
+.modal-header img {
+	display: inline-block;
+	float: left;
+}
+
+.modal-body h4, .modal-header h4 {
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.modal-body h4 {
+	font-size: 15px;
+}
+
+.modal-header h4 {
+	font-size: 16px;
+}
+
+/*END CALENDAR*/
+
+/*LEGEND*/
+.leftfix {
+	padding-left: 10px;
+	margin-top: 10px;
+}
+
+#feed {
+	width: 100%;
+}
+/*END LEGEND*/
+
+
+/*ADMIN*/
+label {
+	color: #666;
+}
+
+td, th {
+	color: #616161;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.dash-main th {
+	text-align: center;
+}
+
+.calendar .form {
+	margin-top: 30px;
+	text-align: center;
+	position: relative;
+	left: 27%;
+	width: 500px;
+}
+
+.form-box {
+	margin-top: 15px;
+}
+
+.form-box, .dash-box {
+	min-height: 600px;
+}
+
+.btn-danger, .btn-success {
+	color: #fff;
+}
+/*END ADMIN*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+	box-shadow: 0 0 3px #666;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.footer p {
+	padding: 10px;
+}
+
+@media(max-width: 1200px) { 
+
+	.legend {
+		display: none;
+		height: 100%;
+		top: 58px;
+		right: 0px;
+		max-height: 600px;
+		position: fixed;
+	}
+
+	.legend ul img {
+		width: 28px;
+		height: 28px;
+		font-size: 10px;
+	}
+
+	.menu button {
+		display: inline-block;
+	}
+
+	.day, .hour {
+		height: 81px;
+	}
+
+	.calendar {
+		height: 535px;
+	}
+
+	.number {
+		font-size: 30px;
+	}
+	
+	.navbar-header {
+		padding: 3px 0;
+	}
+
+	.leftfix {
+		padding-left: 15px;
+		padding-right: 0;
+	}
+
+	.info ul li img, .table img {
+	    width: 20px;
+	    height: 20px;
+	}
+
+	.head {
+		font-size: 13px;
+	}
+	
+	.rightfix {
+		padding-left: 0;
+	}
+
+	.form-box, .dash-box {
+		min-height: 500px;
+	}
+
+}
+
+
+@media(max-width:992px) {
+	.navbar-header h2, label {
+		font-size: 12px;
+	}
+
+	.escudo {
+		height: 50px;
+	}
+
+	.menu button {
+		top: 15px;
+	}
+
+	.day, .hour {
+		height: 76px;
+	}
+
+	.calendar {
+		height: 510px;
+	}
+
+	.number {
+		font-size: 25px;
+	}
+
+	.legend ul img {
+		width: 24px;
+		height: 24px;
+		font-size: 9px;
+	}
+
+	.legend form button, .legend div a {
+		font-size: 9px;
+	}
+
+	.modal-body h4 {
+		font-size: 14px;
+	}
+
+	.half-block p, .all-block p {
+		font-size: 10px;
+	}
+
+	.number p {
+		font-size: 18px;
+	}
+
+	.form-box, .dash-box {
+		min-height: 400px;
+	}
+
+	td, th {
+	    color: #616161;
+	    font-weight: bold;
+	    font-size: 8px;
+	}
+}
+
+@media(max-width:767px) {
+	.navbar-header {
+		text-align: center;
+	}
+
+	h2, h3, h3 span {
+		font-size: 11px;
+	}
+
+	.head {
+		font-size: 10px;
+	}
+
+	.navigation {
+		margin-top: 5px;
+		display: block;
+		float: none;
+		text-align: center;
+	}
+
+	.calendar {
+		height: 505px;
+	}
+
+	.menu button {
+		display: inline-block;
+		top: 0;
+		left: 0;
+	}
+
+	.menu {
+		float: none;
+		display: block;
+		margin-bottom: 10px;
+		left: 40%;
+		position: relative;
+		margin-top: 5px;
+	}
+
+	.legend {
+		top: 0;
+	}
+
+	.legend ul {
+		font-size: 9px;
+	}
+
+	.legend ul img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.legend form button, .legend div a {
+		font-size: 9px;
+	}
+
+	.info ul li img, .detail ul li img, .table img {
+		width: 18px;
+		height: 18px;
+	}
+
+	.detail ul {
+		text-align: left;
+	}
+
+	.popover-title {
+		font-size: 10px;
+	}
+
+	.popover {
+		max-width: 200px;
+		width: 170px;
+	}
+
+	.info ul li img:nth-child(n+3) {
+		display: none;
+	}
+
+	.modal-body, label {
+		font-size: 10px;
+	}
+
+	.modal-header h4 {
+		font-size: 12px;
+	}
+
+	.modal-body h4 {
+		font-size: 11px;
+	}
+
+	.half-block p, .all-block p {
+		font-size: 7px;
+	}
+
+	.number p {
+		font-size: 14px;
+	}
+
+	.form-box, .dash-box {
+		min-height: 400px;
+	}
+}
