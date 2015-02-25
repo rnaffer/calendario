@@ -46,6 +46,6 @@ class CalendarController extends Controller {
 
 	public function redirect()
 	{
-		return redirect('calendar');
+		return redirect('calendario');
 	}
 }
