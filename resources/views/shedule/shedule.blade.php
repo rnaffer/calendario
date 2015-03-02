@@ -62,8 +62,7 @@
 			</div>
 			<div class="col-md-2 col-sm-2 col-xs-2 block">
 				<div class="hour">
-					<div class="half-block" style="background-color: #F6EDD1"><p>REDES</p></div>
-					<div class="half-block" style="background-color: #F6EDD1"><p>REDES</p></div>
+					<div class="all-block" style="background-color: #F6EDD1"><p>REDES</p></div>
 				</div>
 			</div>
 			<div class="col-md-2 col-sm-2 col-xs-2 block">
