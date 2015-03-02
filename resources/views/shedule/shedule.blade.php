@@ -63,7 +63,7 @@
 			<div class="col-md-2 col-sm-2 col-xs-2 block">
 				<div class="hour">
 					<div class="half-block" style="background-color: #F6EDD1"><p>REDES</p></div>
-					<div class="half-block" style="background-color: #A8EAF0"><p>REDES</p></div>
+					<div class="half-block" style="background-color: #F6EDD1"><p>REDES</p></div>
 				</div>
 			</div>
 			<div class="col-md-2 col-sm-2 col-xs-2 block">
@@ -86,8 +86,7 @@
 			</div>
 			<div class="col-md-2 col-sm-2 col-xs-2 block">
 				<div class="hour">
-					<div class="half-block" style="background-color: #E3D5C5"><p>DEFENSA</p></div>
-					<div class="half-block" style="background-color: #A8EAF0"><p>ELECTIVA TÉCNICA<br>TECNOLOGIA DE REDES</p></div>
+					<div class="all-block" style="background-color: #E3D5C5"><p>DEFENSA</p></div>
 				</div>
 			</div>
 		</div>
@@ -100,8 +99,8 @@
 			</div>
 			<div class="col-md-2 col-sm-2 col-xs-2 block">
 				<div class="hour">
-					<div class="all-block" style="background-color: #A8EAF0"><p>REDES</p></div>
-					<div class="all-block" style="background-color: #A8EAF0"><p></p></div>
+					<div class="half-block" style="background-color: #F6EDD1"><p>REDES</p></div>
+					<div class="half-block"><p></p></div>
 				</div>
 			</div>
 			<div class="col-md-2 col-sm-2 col-xs-2 block">
@@ -121,7 +120,8 @@
 			</div>
 			<div class="col-md-2 col-sm-2 col-xs-2 block">
 				<div class="hour">
-					<div class="all-block" style="background-color: #A8EAF0"><p>ELECTIVA TÉCNICA<br>TECNOLOGIA DE REDES</p></div>
+					<div class="half-block" style="background-color: #A8EAF0"><p>ELECTIVA TÉCNICA<br>TECNOLOGIA DE REDES</p></div>
+					<div class="half-block"></div>
 				</div>
 			</div>
 		</div>
